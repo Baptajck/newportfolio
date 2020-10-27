@@ -1,0 +1,96 @@
+// @import 'src/styles/vars';
+
+@media screen and (min-width: 300px) {
+/*-------------------------------------------*\
+    
+    The style of the component CustomPrompt
+  
+\*-------------------------------------------*/
+  .prompt {
+    z-index: 100;
+    width: 100%;
+    padding: 1.2rem;
+    max-width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+    
+    &-blur {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      z-index: 500;
+      margin-left: -10%;
+    }
+
+
+    &-1 {
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(255,255,255,.16)
+    }
+
+    &-head {
+      padding: 10px 15px 10px 20px;
+      background-color: #1D1B1B;
+
+      &-title {
+        color: #fff;
+        position: relative;
+        text-align: center;
+
+        &--span {
+          position: absolute;
+          right: 0;
+          cursor: pointer;
+          width: 30px;
+          height: 20px;
+        }
+      }
+    }
+
+    &-container {
+      padding: 20px;
+      background-color: rgb(54, 54, 54);
+      text-align: left;
+    }
+
+    &-title-message {
+      margin: 1rem 0;
+      font-style: italic;
+      text-align: center;
+    }
+
+    &-message {
+      text-align: justify;
+      line-height: 1.3rem;
+    }
+
+    &-hr {
+      width: 50%;
+      margin: 1rem auto;
+    }
+
+    &-img {
+      width: 100%;
+    }
+
+    &-groupLink {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+
+      &-item {
+        text-transform: uppercase;
+        padding: .5rem .7rem;
+        border: 1px solid red;
+        border-radius: 10px;
+      }
+    }
+  }
+}

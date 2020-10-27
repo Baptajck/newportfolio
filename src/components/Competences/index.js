@@ -87,9 +87,9 @@ const Competences = () => {
       <div className="notion">
         <h2 className="notion-title">Notions</h2>
         <ul className="notion-list">
-          <li className="notion-list-item"><span className="competences-svg"><FaVuejs /></span></li>
-          <li className="notion-list-item"><span className="competences-svg"><DiPhp /></span></li>
-          <li className="notion-list-item"><span className="competences-svg"><DiPython /></span></li>
+          <li className="notion-list-item"><span className="competences-svg"><FaVuejs /></span><span className="competences-svg-title">VueJS</span></li>
+          <li className="notion-list-item"><span className="competences-svg"><DiPhp /></span><span className="competences-svg-title">PHP</span></li>
+          <li className="notion-list-item"><span className="competences-svg"><DiPython /></span><span className="competences-svg-title">Python</span></li>
         </ul>
       </div>
     </div>

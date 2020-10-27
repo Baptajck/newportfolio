@@ -8,18 +8,18 @@ import { Route, Switch } from 'react-router-dom';
 import Header from '../Header';
 import Presentation from '../Presentation';
 import Competences from '../Competences';
+import Projets from '../Projets';
 
 
 const App = () => {
   return (
     <div className="app">
-      <Switch>
         <Route>
           <Header />
           <Presentation />
           <Competences />
+          <Projets />
         </Route>
-      </Switch>
     </div>
   );
 }
