@@ -28,7 +28,7 @@ const Nav = () => {
         <ul className={`nav-links ${open ? "open nav-links" : ''}`}>
             <li className={open ? "fade" : ''}><a href="#presentation" onClick={toggle}>Présentation</a></li>
             <li className={open ? "fade" : ''}><a href="#competences" onClick={toggle}>Compétences</a></li>
-            <li className={open ? "fade" : ''}><a href="#projets" onClick={toggle}>Projets</a></li>
+            <li className={open ? "fade" : ''}><a href="#project" onClick={toggle}>Projets</a></li>
             <li className={open ? "fade" : ''}><a href="#contact" onClick={toggle}>Contact</a></li>
             {/* 
               <li><button className="login-button" href="#">Login</button></li>

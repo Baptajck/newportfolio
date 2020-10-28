@@ -34,6 +34,10 @@
   &-img {
     display: none;
   }
+
+  &-container-img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -47,6 +51,7 @@
     &-container-infos {
       display: flex;
       flex-direction: column;
+      width: 100%;
     }
 
     &-img {
@@ -55,6 +60,18 @@
       width: 100%;
       display: block;
       height: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .fiche {
+    &-subtitle {
+      margin-top: 20%;
+    }
+    &-desc {
+      margin-top: auto;
+      margin-bottom: 30%;
     }
   }
 }

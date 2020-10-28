@@ -9,6 +9,7 @@ import Presentation from '../Presentation';
 import Competences from '../Competences';
 import Projets from '../Projets';
 import Contact from '../Contact';
+import Versionning from '../Versionning';
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <Competences />
           <Projets />
           <Contact />
+          <Versionning />
         </Route>
     )}
     </div>
