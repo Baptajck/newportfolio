@@ -1,9 +1,8 @@
 import React from 'react';
 import './customPrompt.scss';
 
-const Prompt = ({open, toggle, data }) => {
+const Prompt = ({open, toggle, name, image, titleMessage, message, tech, urlSite, urlCode }) => {
   if (!open) return null;
-  const { name, image, prompt: { titleMessage, message, tech, urlSite, urlCode }} = data;
   return (
     <div className="prompt-blur" onClick={toggle}>
       <div className="prompt">
@@ -21,7 +20,7 @@ const Prompt = ({open, toggle, data }) => {
             <p className="prompt-title-message">{tech}</p>
 
             <div className="prompt-groupLink">
-              <a href={urlSite}className="prompt-groupLink-item">Site</a>
+              <a href={urlSite} className="prompt-groupLink-item">Site</a>
               <a href={urlCode} className="prompt-groupLink-item">Code</a>
             </div>
           </div>

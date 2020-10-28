@@ -1,5 +1,7 @@
+@import '../../../styles';
+
 .entete {
-  background-color: #262626;
+  background-color: $color-black-light;
   margin-top: 1rem;
   padding: 1rem;
   display: flex;
@@ -29,18 +31,18 @@
   }
 
   &-job {
-    background: linear-gradient(to right, #EE811E, #DC2060);
+    background: $linear-gradient-right;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;
   }
 
   &-button {
-    background: linear-gradient(to right, #EE811E, #DC2060);
+    background: $linear-gradient-right;
     border: none;
     padding: .5rem;
-    color: #fff;
-    border-radius: 5px;
+    color: $color-white;
+    @include border-radius(5px);
     margin: 2rem 0 1rem;
   }
 }

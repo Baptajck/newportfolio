@@ -1,5 +1,7 @@
+@import '../../../styles';
+
 .fiche {
-  background-color: #262626;
+  background-color: $color-black-light;
   margin: 1rem 0;
 
   &-container-infos {
@@ -7,7 +9,7 @@
   }
 
   &-title {
-    color: #D78833;
+    color: $color-gold;
     font-weight: 600;
     letter-spacing: .05rem;
     font-size: 20px;

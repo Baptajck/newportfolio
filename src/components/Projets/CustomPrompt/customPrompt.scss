@@ -94,3 +94,22 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .prompt {
+    max-width: 640px;
+    &-blur {
+      margin-left: -24.2%;
+    }
+  }
+}
+
+
+@media screen and (min-width: 999px) {
+  .prompt {
+    max-width: 640px;
+    &-blur {
+      margin-left: -35.2%;
+    }
+  }
+}

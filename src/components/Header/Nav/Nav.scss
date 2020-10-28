@@ -1,12 +1,13 @@
 // https://codepen.io/hitensharma/pen/dybryGE
+@import '../../../styles/';
 
 .nav {
-  transition: .2s;
+  @include transition(.2s);
   position: absolute;
   right: 20px;
   top: 15px;
   font-size: 25px;
-  color: #EE811E;
+  color: $color-gold;
   cursor: pointer;
 }
 
@@ -18,18 +19,17 @@
 
 .nav-links {
   position: fixed;
-  background: #131418;
+  background: $color-black-nav;
   height: 100vh;
   width: 100%;
   flex-direction: column;
   clip-path: circle(50px at 90% -20%);
   -webkit-clip-path: circle(50px at 90% -10%);
-  transition: all 1s ease-out;
+  @include transition(all 1s ease-out);
   pointer-events: none;
   display: flex;
   list-style: none; 
   padding: 0 0.7vw;
-  // justify-content: space-evenly;
   align-items: center;
   text-transform: uppercase;
   left: 0;
@@ -46,16 +46,16 @@
   opacity: 0;
 }
 .nav-links li:nth-child(1) {
-  transition: all 0.5s ease 0.2s;
+  @include transition(all 0.5s ease 0.2s);
 }
 .nav-links li:nth-child(2) {
-  transition: all 0.5s ease 0.4s;
+  @include transition(all 0.5s ease 0.4s);
 }
 .nav-links li:nth-child(3) {
-  transition: all 0.5s ease 0.6s;
+  @include transition(all 0.5s ease 0.6s);
 }
 .nav-links li:nth-child(4) {
-  transition: all 0.5s ease 0.7s;
+  @include transition(all 0.5s ease 0.7s);
 }
 
 li.fade {
@@ -68,9 +68,9 @@ li.fade {
   display: block;
   height: 3px;
   width: 0%;
-  background-color: #DC2060;
+  background-color: $color-red;
   position: absolute;
-  transition: all ease-in-out 250ms;
+  @include transition(all ease-in-out 0.25s);
   margin: 0 0 0 10%;
 }
 
@@ -80,5 +80,5 @@ li.fade {
 }
 
 .nav-links li a:hover {
-  color: #DC2060;
+  color: $color-red;
 }
