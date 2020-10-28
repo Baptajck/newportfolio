@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './App.scss';
 import { Route } from 'react-router-dom';
 
-/**
- * Import local de components
- */
+/* Import local de components */
+import Spinner from '../Spinner';
 import Header from '../Header';
 import Presentation from '../Presentation';
 import Competences from '../Competences';
 import Projets from '../Projets';
-import Spinner from '../Spinner';
+import Contact from '../Contact';
 
 
 const App = () => {
@@ -30,6 +29,7 @@ const App = () => {
           <Presentation />
           <Competences />
           <Projets />
+          <Contact />
         </Route>
     )}
     </div>

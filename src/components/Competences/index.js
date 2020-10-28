@@ -3,7 +3,7 @@ import './Competences.scss';
 /* Import SVG */
 import { DiHtml5, DiMysql, DiScrum, DiPhp, DiPython } from 'react-icons/di';
 import { IoLogoJavascript,IoLogoNodejs } from 'react-icons/io';
-import { FaReact, FaGithub, FaTrello, FaVuejs, FaPython } from 'react-icons/fa';
+import { FaReact, FaGithub, FaTrello, FaVuejs } from 'react-icons/fa';
 
 
 const Competences = () => {
