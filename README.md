@@ -10,7 +10,7 @@
     <img src="https://i.imgur.com/OObzdbP.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Portfolio V1</h3>
+  <h3 align="center">Portfolio</h3>
 
   <p align="center">
     Portfolio - Baptiste Parville, développeur React et NodeJS
