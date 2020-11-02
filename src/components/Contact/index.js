@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.scss';
 /* Import SVG */
-import { FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
-import { IoMdMail } from 'react-icons/io';
+import { FaLinkedin, FaTwitterSquare, FaGithub } from 'react-icons/fa';
+import { IoIosMail } from 'react-icons/io';
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
       <ul className="contact-list">
 
         <li className="contact-list-item">
-          <a href="https://www.linkedin.com/in/baptiste-parville/" target="_blank" rel="noopener noreferrer" className="contact-list-item-link">
+          <a href="https://www.linkedin.com/in/baptiste-parville/" className="contact-list-item-link">
             <span className="contact-list-item--span">
               LinkedIn
             </span>
@@ -21,7 +21,7 @@ const Contact = () => {
         </li>
 
         <li className="contact-list-item">
-        <a href="https://twitter.com/baptjacky" target="_blank" rel="noopener noreferrer" className="contact-list-item-link">
+        <a href="https://twitter.com/baptjacky" className="contact-list-item-link">
           <span className="contact-list-item--span">
             Twitter
           </span>
@@ -30,13 +30,23 @@ const Contact = () => {
         </li>
 
         <li className="contact-list-item">
-        <a href="mailto:baptiste.parville@protonmail.com" target="_blank" rel="noopener noreferrer" className="contact-list-item-link">
+        <a href="https://github.com/Baptajck" className="contact-list-item-link">
           <span className="contact-list-item--span">
-            Mail
+            GitHub
           </span>
-          <IoMdMail />
+          <FaGithub />
         </a>
         </li>
+        
+        <li className="contact-list-item">
+        <a href="mailto:baptiste.parville@protonmail.com" className="contact-list-item-link">
+          <span className="contact-list-item--span">
+            Email
+          </span>
+          <IoIosMail />
+        </a>
+        </li>
+
       </ul>
     </div>
   )

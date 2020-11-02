@@ -8,7 +8,8 @@
   height: 30px;
   opacity: .5;
   transition: .1s;
-  border: 2px solid $color-gold;
+  border: 1px solid $color-gold;
+  @include border-radius(10px 0px 0px 10px);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -7,7 +7,12 @@ const Fiche = () => {
       <div className="fiche-container-infos">
         <h2 className="fiche-title">Présentation</h2>
         <h3 className="fiche-subtitle">Je suis un développeur web</h3>
-        <p className="fiche-desc">Je m'appelle Baptiste Parville et ma passion pour le développement web commence un peu par hasard après quelques cours pris sur OpenClassrooms. Fort de cette découverte, je décide de changer de cap et de me lancer pleinement dans le développement web. Après 4 mois de formation intensive chez O'Clock, qui m'ont conforté dans mon idée, je me lance avec 3 de mes collègues dans un projet se voulant novateur et inédit : GameBook. A la fin de la formation, j'ai souhaité mettre mes compétences fraîchement acquises en action et c'est ainsi qu'est né : LikeMovie. Je cherche désormais à mettre mes compétences au service de votre entreprise.</p>
+        <p className="fiche-desc">Passionné par les nouvelles technologies depuis de nombreuses années, mon goût pour le développement web commence un peu par hasard après quelques cours pris sur OpenClassrooms. Je décide alors d'effectuer une reconversion professionnelle en suivant une formation intensive chez O'Clock. Pendant 5 mois, je découvre le métier de développeur web et web mobile. Depuis, j'approfondis les compétences acquises et je prends un réel plaisir à chercher, créer et développer. <br/>
+        Retrouvez ici tous mes <a href="#projets" className="fiche-link">projets</a>.
+        </p>
+        <p className="fiche-desc">D'un naturel curieux, créatif et minutieux, je suis maintenant à la recherche d'un poste de développeur web en CDI/CDD. N'hésitez pas à me <a href="#contact" className="fiche-link">contacter</a> pour de plus amples informations.
+        <br />Au plaisir d'échanger avec vous !
+        </p>
       </div>
       <div className="fiche-container-img">
         <img src="https://i.imgur.com/aaU4uBv.jpg" alt="bureau et moi" className="fiche-img" />
