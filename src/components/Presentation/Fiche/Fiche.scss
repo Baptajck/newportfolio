@@ -81,14 +81,14 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1000px) {
   .fiche {
     &-subtitle {
       margin-top: 10%;
     }
     &-desc {
-      margin-top: auto;
-      // margin-bottom: 30%;
+      margin-top: 50px;
     }
   }
 }

@@ -9,7 +9,6 @@ import Presentation from '../Presentation';
 import Competences from '../Competences';
 import Projets from '../Projets';
 import Contact from '../Contact';
-// import News from '../News';
 import Versionning from '../Versionning';
 
 
@@ -19,7 +18,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       isLoading(false)
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
@@ -32,7 +31,6 @@ const App = () => {
           <Competences />
           <Projets />
           <Contact />
-          {/* <News /> */}
           <Versionning />
         </Route>
     )}

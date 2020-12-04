@@ -1,8 +1,9 @@
 import React from 'react';
 import './Contact.scss';
 /* Import SVG */
-import { FaLinkedin, FaTwitterSquare, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
+import { FiCodesandbox } from 'react-icons/fi';
 
 const Contact = () => {
   return (
@@ -21,11 +22,11 @@ const Contact = () => {
         </li>
 
         <li className="contact-list-item">
-        <a href="https://twitter.com/baptjacky" className="contact-list-item-link">
+        <a href="https://codesandbox.io/u/Baptajck" className="contact-list-item-link">
           <span className="contact-list-item--span">
-            Twitter
+            CodeSandbox
           </span>
-          <FaTwitterSquare />
+          <FiCodesandbox />
         </a>
         </li>
 
