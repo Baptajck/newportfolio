@@ -6,17 +6,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://baptjack.fr">
+  <a href="http://baptjack.fr">
     <img src="https://i.imgur.com/OObzdbP.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Portfolio V1</h3>
+  <h3 align="center">Portfolio</h3>
 
   <p align="center">
     Portfolio - Baptiste Parville, développeur React et NodeJS
     <br />
     <br />
-    <a href="https://baptjack.fr">Voir le site</a>
+    <a href="http://baptjack.fr">Voir le site</a>
   </p>
 </p>
 
